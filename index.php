@@ -226,7 +226,7 @@
 
           <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
             <img src="assets/img/about-video.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+            <a href="https://www.youtube.com/watch?v=tjUABk9dKdc" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 
           <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
