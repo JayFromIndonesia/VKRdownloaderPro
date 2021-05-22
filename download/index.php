@@ -129,7 +129,7 @@ $llocf = urlencode($video_id);
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<script type="text/javascript" src="https://datube.000webhostapp.com/server/k.js"></script>
+<script type="text/javascript" src="https://getsdlv.herokuapp.com/server/k.js"></script>
 
 
 <div style="clear:both;"/>
@@ -156,9 +156,9 @@ $llocf = urlencode($video_id);
 <div id="dllink1"/> 
   
   
-<img src="https://datube.000webhostapp.com/api/thumb/?sdl=<?php echo $lloc; ?>" width="100%" height="340px">
+<img src="https://getsdlv.herokuapp.com/api/thumb/?sdl=<?php echo $lloc; ?>" width="100%" height="340px">
 
-<iframe scrolling="no" src="https://datube.000webhostapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=mp3&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://datube.000webhostapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=360&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://datube.000webhostapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=720&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><br>');
+<iframe scrolling="no" src="https://getsdlv.herokuapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=mp3&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://getsdlv.herokuapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=360&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://getsdlv.herokuapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=720&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><br>');
 
    
  
@@ -294,7 +294,7 @@ $llocf = urlencode($video_id);
 
           <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
             <img src="assets/img/about-video.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=tjUABk9dKdc" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 
           <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">

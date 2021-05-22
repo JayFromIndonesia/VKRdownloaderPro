@@ -129,7 +129,7 @@ preg_match("/^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<script type="text/javascript" src="https://datube.000webhostapp.com/server/dyt.js"></script>
+<script type="text/javascript" src="https://getsdlv.herokuapp.com/server/dyt.js"></script>
 
 
 <div style="clear:both;"/>
@@ -158,7 +158,7 @@ preg_match("/^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\
 <img src="https://i1.ytimg.com/vi/<?php echo $matches[1]; ?>/hqdefault.jpg" width="100%" height="340px">
   
 
- <iframe scrolling="no" src="https://datube.000webhostapp.com/server/dl/?ext=mp3&qv=128&sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://datube.000webhostapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=mp3&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://datube.000webhostapp.com/server/dl/?ext=mp4&qv=720p&sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://datube.000webhostapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=360&color=06fa1b" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://datube.000webhostapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=720&color=990df0" style="width: 100%; height: 65px; border: 0px;"></iframe><br>');
+ <iframe scrolling="no" src="https://getsdlv.herokuapp.com/server/dl/?ext=mp3&qv=128&sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://getsdlv.herokuapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=mp3&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://getsdlv.herokuapp.com/server/dl/?ext=mp4&qv=720p&sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://getsdlv.herokuapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=360&color=06fa1b" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://getsdlv.herokuapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=720&color=990df0" style="width: 100%; height: 65px; border: 0px;"></iframe><br>');
   <div id="like"/>
     <div id="views"/>
     <div id="channel"/>
@@ -295,7 +295,7 @@ preg_match("/^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\
 
           <div class="col-lg-6 video-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
             <img src="assets/img/about-video.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=tjUABk9dKdc" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
           </div>
 
           <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
