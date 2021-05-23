@@ -95,6 +95,16 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+           <style>
+      .bg {
+	width: 100%;
+	height: 100vh;
+	background: url("https://images.unsplash.com/photo-1620550737666-ff0b70d74fe4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60") top center;
+	background-size: cover;
+	position: relative;
+}
+  </style>
+  <div class="bg">
           <center><h2> Search Or Paste URL to Download </h2></center>
 <form method="get" action="/searchf.php">
       <div class="row justify-content-center">
@@ -105,9 +115,9 @@
         </div>
       </div>
       <div class="text-center">
-        <button type="submit" class="btn-get-started scrollto"> Get Now! </a>
+        <button type="submit" class="btn-get-started scrollto"> Get Now! </button>
       </div>
-</form>
+</form></div>
       <div class="row icon-boxes">
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
