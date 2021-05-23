@@ -103,8 +103,21 @@ $llocf = urlencode($video_id);
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-          <center><h2> Search Or Paste URL to Download </h2></center>
+ <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+           <style>
+      .bg {
+	width: 100%;
+	height: 100vh;
+	background: url("https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif") top center;
+	background-size: cover;
+	position: relative;
+}
+#hero .container {
+	padding-top: 0px;
+}
+  </style>
+  <div class="bg">
+         <br><br> <center><h3 style="color:white;">  Search Or Paste URL to Download </h3></center><br>
 <form method="get" action="/searchf.php">
       <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-9 text-center">
@@ -114,10 +127,9 @@ $llocf = urlencode($video_id);
         </div>
       </div>
       <div class="text-center">
-        <button type="submit" class="btn-get-started scrollto"> Get Now! </a>
+        <button type="submit" class="btn-get-started scrollto"> Get Now! </button>
       </div>
-</form>
-
+</form></div>
       
   <center><h2> Search Reasult for - <?php echo $lloc; ?></h1></center>
             
