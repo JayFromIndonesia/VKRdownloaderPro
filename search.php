@@ -107,7 +107,7 @@ $llocf = urlencode($video_id);
            <style>
       .bg {
 	width: 100%;
-	height: 100vh;
+	height: 80vh;
 	background: url("https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif") top center;
 	background-size: cover;
 	position: relative;
