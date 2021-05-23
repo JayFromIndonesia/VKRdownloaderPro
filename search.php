@@ -12,7 +12,7 @@ $llocf = urlencode($video_id);
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+<div id="vTitlet"/>
   <title>VKRdownloaderPro : Download Any Videos From Any Sites </title>
   <meta content="VKRdownloaderPro: Videos Downloader From more than 1000+ Sites , All in one Videos Downloader Online , YouTube Videos Downloader, facebook Videos Downloader" name="description">
   <meta content="VKRdownloaderPro: Videos Downloader From more than 1000+ Sites , All in one Videos Downloader Online , YouTube Videos Downloader, facebook Videos Downloader" name="keywords">
@@ -129,6 +129,10 @@ $llocf = urlencode($video_id);
 
 <div style="clear:both;"/>
 
+<center> <form> reload if it take long time to get download link 
+
+<input type="button" onClick="history.go(0)" value="Reload page">
+</form>
 
 <center>  
 <div id="x"><h3> We are getting Download Link Please Wait .. </h3>   
