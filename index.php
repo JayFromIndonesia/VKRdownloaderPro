@@ -99,13 +99,16 @@
       .bg {
 	width: 100%;
 	height: 100vh;
-	background: url("https://images.unsplash.com/photo-1620550737666-ff0b70d74fe4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60") top center;
+	background: url("https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif") top center;
 	background-size: cover;
 	position: relative;
 }
+#hero .container {
+	padding-top: 0px;
+}
   </style>
   <div class="bg">
-          <center><h2> Search Or Paste URL to Download </h2></center>
+         <br><br> <center><h3 style="color:white;">  Search Or Paste URL to Download </h3></center><br>
 <form method="get" action="/searchf.php">
       <div class="row justify-content-center">
         <div class="col-xl-7 col-lg-9 text-center">
