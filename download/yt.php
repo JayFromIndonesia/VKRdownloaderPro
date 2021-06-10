@@ -3,7 +3,7 @@
 <?php
 error_reporting(0);
 $urlx = $_SERVER['REQUEST_URI'];
-$video_id = explode("?sdl=", $urlx);
+$video_id = explode("sdl=", $urlx);
 $video_id = $video_id[1];
 $lloc = urldecode($video_id);
 $llocfirst = urlencode($video_id);
@@ -142,7 +142,7 @@ preg_match("/^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<script type="text/javascript" src="https://get2mate.herokuapp.com/server/dyt.js"></script>
+<script type="text/javascript" src="https://get2mate.000webhostapp.com/server/dyt.js"></script>
 
 
 <div style="clear:both;"/>
@@ -171,7 +171,7 @@ preg_match("/^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\
 <img src="https://i1.ytimg.com/vi/<?php echo $matches[1]; ?>/hqdefault.jpg" width="100%" height="340px">
   
 
- <iframe scrolling="no" src="https://get2mate.herokuapp.com/server/dl/?ext=mp3&qv=128&sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.herokuapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=mp3&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.herokuapp.com/server/dl/?ext=mp4&qv=720p&sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.herokuapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=360&color=06fa1b" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.herokuapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=720&color=990df0" style="width: 100%; height: 65px; border: 0px;"></iframe><br>');
+ <iframe scrolling="no" src="https://get2mate.000webhostapp.com/server/dl/?ext=mp3&qv=128&sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.000webhostapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=mp3&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.000webhostapp.com/server/dl/?ext=mp4&qv=720p&sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.000webhostapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=360&color=06fa1b" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.000webhostapp.com/server/dl/dl.php/?sdl=https://youtube.com/watch?v=<?php echo $matches[1]; ?>&f=720&color=990df0" style="width: 100%; height: 65px; border: 0px;"></iframe><br>');
   <div id="like"/>
     <div id="views"/>
     <div id="channel"/>
