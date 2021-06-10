@@ -3,7 +3,7 @@
 <?php
 error_reporting(0);
 $urlx = $_SERVER['REQUEST_URI'];
-$video_id = explode("?sdl=", $urlx);
+$video_id = explode("sdl=", $urlx);
 $video_id = $video_id[1];
 $lloc = urldecode($video_id);
 $llocfirst = urlencode($video_id);
@@ -136,7 +136,7 @@ $llocf = urlencode($video_id);
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<script type="text/javascript" src="https://get2mate.herokuapp.com/server/search.js"></script>
+<script type="text/javascript" src="https://get2mate.000webhostapp.com/server/search.js"></script>
 
 
 <div style="clear:both;"/>
