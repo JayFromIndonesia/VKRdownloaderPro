@@ -3,7 +3,7 @@
 <?php
 error_reporting(0);
 $urlx = $_SERVER['REQUEST_URI'];
-$video_id = explode("?sdl=", $urlx);
+$video_id = explode("sdl=", $urlx);
 $video_id = $video_id[1];
 $lloc = urldecode($video_id);
 $llocfirst = urlencode($video_id);
@@ -142,7 +142,7 @@ $llocf = urlencode($video_id);
       
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<script type="text/javascript" src="https://get2mate.herokuapp.com/server/k.js"></script>
+<script type="text/javascript" src="https://get2mate.000webhostapp.com/server/k.js"></script>
 
 
 <div style="clear:both;"/>
@@ -169,9 +169,9 @@ $llocf = urlencode($video_id);
 <div id="dllink1"/> 
   
   
-<img src="https://get2mate.herokuapp.com/api/thumb/?sdl=<?php echo $lloc; ?>" width="100%" height="340px">
+<img src="https://get2mate.000webhostapp.com/api/thumb/?sdl=<?php echo $lloc; ?>" width="100%" height="340px">
 
-<iframe scrolling="no" src="https://get2mate.herokuapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=mp3&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.herokuapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=360&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.herokuapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=720&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><br>');
+<iframe scrolling="no" src="https://get2mate.000webhostapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=mp3&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.000webhostapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=360&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><iframe scrolling="no" src="https://get2mate.000webhostapp.com/server/dl/dl.php/?sdl=<?php echo $lloc; ?>&f=720&color=1a8fe5" style="width: 100%; height: 65px; border: 0px;"></iframe><br>');
 
    
  
