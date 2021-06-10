@@ -148,7 +148,7 @@ $llocf = urlencode($video_id);
 
 <center>  
 <div id="x"><h3> We are getting Download Link Please Wait .. </h3>   
-<img src="/img/loading.gif"  width="90%"><br>
+<img src="/img/loading.gif"  width="90%" height="70px"><br>
 
 <div id="dllink"/>
 <div id="vTitlet"/>
