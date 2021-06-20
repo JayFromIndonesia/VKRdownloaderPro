@@ -103,7 +103,7 @@
       <div class="text-center">
         <button type="submit" class="btn-get-started scrollto"> Get Now! </a>
       </div> 
-      <h1><center>We Are Not Supporting Instagram ... Coming Soon</center></h1>
+      <h1><center>We Are Not Supporting Instagram ... </br> Coming Soon</center></h1>
 </form>
       <div class="row icon-boxes">
         <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
