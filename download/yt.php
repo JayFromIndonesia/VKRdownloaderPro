@@ -7,8 +7,11 @@ $video_id = explode("sdl=", $urlx);
 $video_id = $video_id[1];
 $lloc = urldecode($video_id);
 $llocfirst = urlencode($video_id);
-$llocf = urlencode($video_id);  
-preg_match("/^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\/(?:(?:watch)?\?(?:.*&)?v(?:i)?=|(?:embed|v|vi|user)\/))([^\?&\"'>]+)/", $lloc, $matches);
+$llocf = urlencode($video_id);
+  
+preg_match("/^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\/(?:(?:watch)?\?(?:.*&)?v(?:i)?=|(?:embed|v|vi|shorts|user)\/))([^\?&\"'>]+)/", $lloc, $matches);
+r)\/))([^\?&\"'>]+)/", $lloc, $matches);
+
 ?>
 <head>
   <meta charset="utf-8">
