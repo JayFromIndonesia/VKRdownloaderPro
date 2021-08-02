@@ -10,7 +10,7 @@ $llocfirst = urlencode($video_id);
 $llocf = urlencode($video_id);
   
 preg_match("/^(?:http(?:s)?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com\/(?:(?:watch)?\?(?:.*&)?v(?:i)?=|(?:embed|v|vi|shorts|user)\/))([^\?&\"'>]+)/", $lloc, $matches);
-r)\/))([^\?&\"'>]+)/", $lloc, $matches);
+
 
 ?>
 <head>
